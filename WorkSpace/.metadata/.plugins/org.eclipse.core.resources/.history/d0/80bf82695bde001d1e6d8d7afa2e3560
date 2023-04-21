@@ -1,0 +1,13 @@
+package pack04_oop2;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		Student st= new Student();
+		st.num=1;
+		st.name="김씨";
+		st.korSco=30;
+		st.matSco=20;
+		st.engSco=10;
+		st.student();
+	}
+}

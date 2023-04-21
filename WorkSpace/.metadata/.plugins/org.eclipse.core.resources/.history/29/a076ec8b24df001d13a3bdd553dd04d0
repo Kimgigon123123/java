@@ -1,0 +1,10 @@
+package practice;
+
+public class scoreDAO {
+	void display(scoreDTO[] scoArr) {
+		for(int i=0;i<scoArr.length;i++) {
+			System.out.println(scoArr[i].name);
+		}
+	}
+
+}

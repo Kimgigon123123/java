@@ -1,0 +1,19 @@
+package pack01_base;
+
+public class Ex05_Const {
+	int field1;
+	String field2;//<== 두개를 이용해서 생성자 메소드 만들어보기
+	
+	public Ex05_Const(int field1, String field2) {
+		super();
+		this.field1 = field1;
+		this.field2 = field2;
+		System.out.println(field1+field2);
+	}
+	
+	public static void main(String[] args) {
+		Ex05_Const ec= new Ex05_Const(1, "안녕");
+		
+	}
+	
+}

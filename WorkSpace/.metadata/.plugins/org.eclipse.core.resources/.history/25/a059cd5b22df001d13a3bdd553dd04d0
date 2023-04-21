@@ -1,0 +1,20 @@
+package practice;
+
+public class scoreMain {
+	public static void main(String[] args) {
+	scoreDTO[] scoArr=new scoreDTO[3];
+	
+	scoreDTO s1 = null;
+	scoreDTO s2 = null;
+	scoreDTO s2 = null;
+	
+	scoArr[0]=new scoreDTO("김씨", 1, 50);
+	scoArr[1]=new scoreDTO("박씨", 2, 70);
+	scoArr[2]=new scoreDTO("이씨", 3, 100);
+	
+	for(int i=0;i<scoArr.length;i++) {
+		System.out.println(scoArr[i;
+	}
+	
+}
+}

@@ -1,0 +1,21 @@
+package practice;
+
+public class Practice13 {
+	//필드
+	String nation = "대한민국";
+	String name;
+	String ssn;
+	
+	
+	//생성자
+	public Practice13(String n, String s) {
+		
+		name = n;
+		ssn = s;
+	}
+	public static void main(String[] args) {
+		Practice13 k1= new Practice13("김씨", "12341234-1234")
+	}
+	
+}
+

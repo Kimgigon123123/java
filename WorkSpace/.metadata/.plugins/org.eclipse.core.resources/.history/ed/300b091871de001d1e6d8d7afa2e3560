@@ -1,0 +1,8 @@
+package project1;
+
+public class Cola {
+	String name="콜라";
+	int price=800;
+	int count=8;
+
+}

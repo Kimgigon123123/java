@@ -1,0 +1,57 @@
+package pack01_if;
+
+public class TestIf {
+	public static void main(String[] args) {
+		//int형 변수 code를 만든다.code의 값이 1이면 '남자' 2이면 '여자' 3이면 '남자' 4이면 '여자'
+		//출력 그외에 값은 '오류' 출력
+		
+		int code=2;
+		if(code==1||code==3) {
+			System.out.println("남자");
+		}if(code==2||code==4) {
+			System.out.println("여자");
+		}
+		
+		
+		
+		//int random = (int)(Math.random()*6+1;<-해당 코드가 실행되고 나면 1~6까지의 수가 랜덤하게 할당됨
+		//조건문을 이용해서 random의 숫자가 몇인지를 출력하기.
+		//ex)random(1):1이 출력되었습니다...........~6까지
+		int random=(int)(Math.random()*6)+1;
+		if(random==1) {
+			System.out.println(random + "이 출력되었습니다");
+		}
+		if(random==2) {
+			System.out.println(random + "이 출력되었습니다");
+		}
+		if(random==3) {
+			System.out.println(random + "이 출력되었습니다");
+		}
+		if(random==4) {
+			System.out.println(random + "이 출력되었습니다");
+		}
+		if(random==5) {
+			System.out.println(random + "이 출력되었습니다");
+		}
+		if(random==6) {
+			System.out.println(random + "이 출력되었습니다");
+		}
+		//3. 주사위 게임 만들기
+		//(int)(Math.random()*6)+1 <- 코드를 이용해서 첫번째로 나온숫자는 나의 숫자(사용자)
+		//나:1 , 컴퓨터6 > 결과 : 컴ㅍ퓨터가 이겼습니다.
+		
+		int dice1=(int)(Math.random()*6)+1;
+		int dice2=(int)(Math.random()*6)+1;
+		System.out.println(dice1);
+		System.out.println(dice2);
+		if(dice1>dice2) {
+			System.out.println("내가 이김");
+		}
+		if(dice2>dice1) {
+			System.out.println("컴퓨터가 이김");
+		}if(dice1==dice2) {
+			System.out.println("비김");
+		}
+		
+	}
+}

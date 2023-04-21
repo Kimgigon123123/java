@@ -1,0 +1,15 @@
+package pack02_array;
+
+import java.util.Scanner;
+
+public class Ex03_Array {public static void main(String[] args) {
+	
+
+	//데이터타입[]배열이름=new데이터타입[크기]
+	Scanner[]array=new Scanner[10];
+	// 내가 알고있는 모든것들 <-
+	//String 타입을 가지는 배열 크기는 10으로 만들어보기.
+	//String[0] <- 어떤값이 들어있을까?
+	
+}
+}

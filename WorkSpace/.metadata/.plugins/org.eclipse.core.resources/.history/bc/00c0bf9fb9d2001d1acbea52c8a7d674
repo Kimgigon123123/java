@@ -1,0 +1,40 @@
+package pack01_if;
+
+public class Ex05_IfElseif {
+	public static void main(String[] args) {
+		// if else문으로는 어떤 조건을 줄때 true인지와 false인지 두가지 경우만 만들수가 있음.
+		// ex) 짝수? Y(true) else n(false)
+		// if (조건식A) {
+		// 조건식A가 True일때 실행할 코드를 넣어줌.
+		// else if(조건식B){
+		// 조건식A가 true가 아니고 조건식b일때 실행할 코드를 넣어줌.
+		// else if(조건식C){
+		// 조건식B가 true가 아니고 조건식C일때 실행할 코드를 넣어줌.
+		// else{
+		// 조건식A가 True가 아닐때 실행할 코드를 넣어줌.(규칙:if문 블럭킹 끝에 붙여서 사용한다
+	int score=77;
+	
+	if(score>=90) {
+		System.out.println("A");
+	}else if(score>=80){
+		System.out.println("B");
+	}else if(score>=70) {
+		System.out.println("C");
+	}else {
+		System.out.println("D");
+	}
+	
+	if (score >= 90) {
+		System.out.println("A");
+	}
+	if (score >= 80 && score < 89) {
+		System.out.println("B");
+
+	}
+	if (score >= 70 && score <79) {
+		System.out.println("C");
+	}else {
+		System.out.println("D");
+	}
+}
+}

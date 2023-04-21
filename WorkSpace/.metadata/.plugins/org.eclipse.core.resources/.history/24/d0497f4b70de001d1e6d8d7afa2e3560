@@ -1,0 +1,21 @@
+package project1;
+
+public class JapanDTO {
+
+	String name;
+	int price;
+	int count;
+	public JapanDTO(String name, int price, int count) {
+		
+		this.name = name;
+		this.price = price;
+		this.count = count;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

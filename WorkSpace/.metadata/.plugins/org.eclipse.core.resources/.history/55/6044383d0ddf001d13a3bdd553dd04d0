@@ -1,0 +1,19 @@
+package practice;
+
+public class PracticeDTO {
+	int num;
+	String name;
+	int score1;
+	int score2;
+	int sum;
+	
+	public PracticeDTO(int num, String name, int score1, int scroe2) {
+		super();
+		this.num = num;
+		this.name = name;
+		this.score1 = score1;
+		this.score2 = score2;
+		this.sum=score1+score2;
+	}
+
+}

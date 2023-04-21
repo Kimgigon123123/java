@@ -1,0 +1,25 @@
+package pack04_oop2;
+
+public class StudentDTO {
+	//메소드나 변수 앞에 접근 제한자라는것을 사용하면, 외부에서 접근을 제한할 수 있따.
+	//public,protected,default,private
+	//지금 사용할것:public(공공,공개된),private(공개되지않은,사적인)
+	
+	public int num;
+	String name;
+	int korSco;
+	int matSco;
+	int engSco;
+	int sum;
+	double avg;
+	public StudentDTO(int num, String name, int korSco, int matSco, int engSco) {
+		
+		this.num = num;
+		this.name = name;
+		this.korSco = korSco;
+		this.matSco = matSco;
+		this.engSco = engSco;
+		this.sum=this.korSco+this.matSco+this.engSco;
+		this.avg=(double)(this.korSco+this.matSco+this.engSco)/3;
+	}
+}

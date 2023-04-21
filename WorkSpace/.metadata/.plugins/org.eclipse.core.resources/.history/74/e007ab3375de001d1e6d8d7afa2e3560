@@ -1,0 +1,16 @@
+package project1;
+
+public class JapanDTO {
+
+	String name; //상품명//
+	int price; //가격//
+	int count; //수량
+	}
+	
+	
+	
+	
+	
+	
+	
+

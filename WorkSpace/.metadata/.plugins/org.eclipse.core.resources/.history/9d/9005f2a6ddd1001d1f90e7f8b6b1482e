@@ -1,0 +1,9 @@
+
+public class Test01 {public static void main(String[] args) {
+	
+	String aaa;
+	aaa="Kgg";
+	System.out.println(aaa);
+}
+
+}

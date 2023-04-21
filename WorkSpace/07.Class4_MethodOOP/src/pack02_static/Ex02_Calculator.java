@@ -1,0 +1,35 @@
+package pack02_static;
+
+public class Ex02_Calculator {
+	//Ex02_CalculatorMain을 만들고 Ex02_Calulator에 있는 메소드를 전부 호출하는것
+	//Main 클래스에서는 인스턴스화 과정이 없다
+	
+	
+	//메소드(기능)은 다음과 같습니다.
+	//plus <- 두수를 입력 받아 합을 return 하는 static 메소드
+	//minus
+	//mul(곱)
+	//div(나누기)
+	
+	
+	static int plus(int num1,int num2) {
+		return num1+ num2;
+	}
+	
+	static int minus(int num1,int num2) {
+		return num1-num2;
+	}
+	
+	static int mul(int num1, int num2) {
+		return num1*num2;
+	}
+	
+	static int div(int num1, int num2) {
+		return num1/num2;
+	}
+	
+	
+	
+	
+	
+}

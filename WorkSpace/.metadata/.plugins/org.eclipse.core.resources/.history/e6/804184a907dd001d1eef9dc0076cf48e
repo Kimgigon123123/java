@@ -1,0 +1,16 @@
+package practice;
+
+public class Practice13 {
+	public static void numbering(int num) {
+		for(int i=0; i < num; i++) {
+			num=i;
+			System.out.println(num);
+		}
+		
+
+	}
+	public static void main(String[] args) {
+		numbering(15);
+	}
+}
+

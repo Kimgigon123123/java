@@ -1,0 +1,12 @@
+package project1;
+
+import practice.PracticeDTO;
+
+public class JapanDAO {
+	void display(JapanDTO dto){
+		System.out.println("음료: "+dto.name);
+		System.out.println("가격: "+dto.price);
+		System.out.println("수량: "+dto.count);
+	}
+
+}

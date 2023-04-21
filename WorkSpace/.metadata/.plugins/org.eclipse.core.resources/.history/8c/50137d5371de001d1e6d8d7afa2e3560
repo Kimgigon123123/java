@@ -1,0 +1,11 @@
+package project1;
+
+public class Cola {
+	void show() {
+		String name="콜라";
+		int price=800;
+		int count=8;
+		System.out.println(name+price+count);
+	}
+	
+}

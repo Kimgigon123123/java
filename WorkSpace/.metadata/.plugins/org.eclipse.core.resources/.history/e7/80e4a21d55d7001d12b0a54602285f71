@@ -1,0 +1,51 @@
+package pack02_array;
+
+public class Ex02_Array {
+	public static void main(String[] args) {
+		//1. 10의 크기를 가진 int형 배열을 만들고 10~100까지 할당하고 출력해보기
+//		int[]array=new int[10];
+//		int num=0;
+//		int result=10;
+//		while(num<10) {
+//			array[num]=result;
+//			System.out.println("array["+num+"]:"+array[num]);
+//			num++;
+//			result+=10;
+//		}
+//		int b=10;
+//		for(int a=0;a<10;a++) {
+//			array[a]=b;
+//			System.out.println(b);
+//			b+=10;
+//		}
+		
+		
+		// 배열의 누적합을 구해보기 10~100까지의 합
+		int[]array=new int[5];
+		array[0]=10;
+		array[1]=20;
+		array[2]=30;
+		array[3]=40;
+		array[4]=50;
+		
+		int result;
+		result=0;
+		result=result+array[0];
+		result=result+array[1];
+		result=result+array[2];
+		result=result+array[3];
+		result=result+array[4];
+		System.out.println(result);
+		
+		int a=0;
+		while(a<5) {
+			array[a]= (a+1) * 10;
+			a++;
+		}
+		System.out.println(array[0]);
+		
+		
+		
+	}
+
+}

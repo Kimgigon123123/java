@@ -1,0 +1,10 @@
+package project1;
+
+public class JapanDAO {
+	void display(JapanDTO[] drinkArr) {
+		for(int i=0;i<drinkArr.length;i++) {
+			System.out.println((i+1)+". "+drinkArr[i].name);
+		}
+	}
+
+}

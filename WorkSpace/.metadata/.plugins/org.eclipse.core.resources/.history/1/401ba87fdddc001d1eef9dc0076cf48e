@@ -1,0 +1,14 @@
+package practice;
+
+public class Practice09 {
+	public static void main(String[] args) {
+		int num=4;
+		getDouble(num);
+		System.out.println("num= "+num);
+	}
+
+	static int getDouble(int value) {
+		value *=2;
+		return value;
+	}
+}

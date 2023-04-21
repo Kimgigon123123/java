@@ -1,0 +1,16 @@
+package practice;
+
+public class Practice13 {
+	int numbering(int limit) {
+		int i=0;
+		while(i<limit) {
+			System.out.println(i);
+			i++;
+		}
+	}
+	public static void main(String[] args) {
+		Practice13 es= new Practice13();
+		es.numbering(5);
+	}
+}
+

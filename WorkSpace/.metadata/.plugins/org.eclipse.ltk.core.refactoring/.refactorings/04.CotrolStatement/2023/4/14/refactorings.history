@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;pack05_etc.Ex02_contine.java&apos; to &apos;Ex02_continue.java&apos;&#x0D;&#x0A;- Original project: &apos;04.CotrolStatement&apos;&#x0D;&#x0A;- Original element: &apos;pack05_etc.Ex02_contine.java&apos;&#x0D;&#x0A;- Renamed element: &apos;pack05_etc.Ex02_continue.java&apos;" description="Rename compilation unit &apos;Ex02_contine.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;pack05_etc{Ex02_contine.java" name="Ex02_continue.java" references="false" stamp="1680827650094" version="1.0"/>
+</session>

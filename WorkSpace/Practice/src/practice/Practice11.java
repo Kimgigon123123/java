@@ -1,0 +1,21 @@
+package practice;
+
+public class Practice11 {
+	//arr[0] =1 arr[1]=2 arr[2]=3 arr[3]=4
+	//arr[0]~arr[3]까지의 합
+	
+	int sum=0;
+	int arrSum(int[]arr) {
+		for(int i=0;i < arr.length;i++) {
+			sum+=arr[i];
+		}
+		return sum;
+	}
+	public static void main(String[] args) {
+		Practice11 es= new Practice11();
+		int[]arr1= {1,2,3,4};
+		int[]arr2= {3,4,5};
+		System.out.println(es.arrSum(arr2));
+	}
+	
+}

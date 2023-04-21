@@ -1,0 +1,1 @@
+MsgBox "kgg" , vbinformation , "kggmsg"

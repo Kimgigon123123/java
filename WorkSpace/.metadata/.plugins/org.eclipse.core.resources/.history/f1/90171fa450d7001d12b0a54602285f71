@@ -1,0 +1,18 @@
+package pack02_array;
+
+import java.util.Scanner;
+
+public class Ex03_Array {public static void main(String[] args) {
+	
+
+	//데이터타입[]배열이름=new데이터타입[크기]
+	
+	// 내가 알고있는 모든것들 <-
+	//String 타입을 가지는 배열 크기는 10으로 만들어보기.
+	//String[0] <- 어떤값이 들어있을까?
+	//int[0]에 무슨값이 초기에 있었는지? 최기값: 0 <- 숫자형태의 변수타입은 전부 0
+	//String[0] <- 어떤 값이 들어있을까? null (참조형 변수들의 초기값)
+	String[]animals=new String[3];
+	animals[0];
+}
+}

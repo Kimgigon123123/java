@@ -1,0 +1,16 @@
+package project1;
+
+
+public class JapanDAO {
+	void buy(JapanDTO aa){
+		aa.count--;
+		aa.money=aa.money-aa.price;
+		
+		System.out.println(aa.money+"원 남음");
+		System.out.print(aa.name);
+		System.out.println(aa.count+"개 남았음");
+		
+		
+	}
+
+}

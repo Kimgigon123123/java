@@ -1,0 +1,13 @@
+package project1;
+
+public class JapanMain {
+	public static void main(String[] args) {
+		JapanDTO dto1= new JapanDTO("콜라", 800,8 );
+		JapanDTO dto2= new JapanDTO("사이다",1000,5 );
+		JapanDTO dto3= new JapanDTO("환타", 900,1 );
+		
+		JapanDAO dao1= new JapanDAO();
+		dao1.음료현황보여주기(dto1+dto2+dto3);
+	}
+
+}

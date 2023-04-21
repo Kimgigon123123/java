@@ -1,0 +1,52 @@
+package project1;
+
+import java.util.Scanner;
+
+
+
+public class JapanMain {
+	public static void main(String[] args) {
+		JapanDTO dto=new JapanDTO();
+		JapanDAO dao=new JapanDAO();
+		dto.name="콜라";
+		dto.price=800;
+		dto.count=8;
+		JapanDTO dto2=new JapanDTO();
+		dto2.name="사이다";
+		dto2.price=1000;
+		dto2.count=5;
+		JapanDTO dto3=new JapanDTO();
+		dto3.name="환타";
+		dto3.price=900;
+		dto3.count=1;
+		
+		System.out.println("돈넣으세요");
+		Scanner sc=new Scanner(System.in);
+		
+		
+		int inputMoney=Integer.parseInt(sc.nextLine());
+		dto.money=inputMoney;
+		dto2.money=inputMoney;
+		dto3.money=inputMoney;
+		System.out.println(dto.money+"원을 넣었습니다");
+		
+		while((dto.money>800&&dto.count>0)||(dto2.money>1000&&dto2.count>0)||(dto3.money>900&&dto3.count>0)) {
+			System.out.println("음료를 고르세요");
+			System.out.print("1."+dto.name);
+			System.out.print("2."+dto2.name);
+			System.out.print("3."+dto3.name);
+			int select=Integer.parseInt(sc.nextLine());
+			if(select==1) {
+				dao.buy(dto);
+			}
+			else if(select==2) {
+				dao.buy(dto2);
+			}
+			else if(select==3) {
+				dao.buy(dto3);
+			}
+		}
+		
+	}
+
+}

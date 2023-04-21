@@ -1,0 +1,25 @@
+package project1;
+
+import java.util.Scanner;
+
+public class Japan {
+	public static void main(String[] args) {
+		String[]name = {"콜라","사이다","환타"};
+		int[] price = {800,1000,900};
+		int[] count = {8,5,1};
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("돈을 넣어주세요");
+		int inputMoney=Integer.parseInt(sc.nextLine());
+		System.out.println(inputMoney+"원을 넣었습니다");
+		System.out.println("음료를 골라주세요");
+		for(int i=0;i<name.length;i++) {
+			System.out.println("1."+name+" "+price+"원 "+count+"개 남음");
+		}
+		
+	}
+		
+		
+	
+
+}

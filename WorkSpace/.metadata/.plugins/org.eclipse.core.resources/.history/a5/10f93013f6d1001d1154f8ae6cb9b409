@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Test03 {
+	public static void main(String[] args) {
+		//다항연산자 또는 이항연산자를 이용해서 문제풀어보기.
+		//Scanner이용해보기
+		Scanner sc = new Scanner(System.in);//스캐너준비
+		System.out.println("숫자입력하세요");
+		String inputData=sc.nextLine();//enter를 치기전까지의 데이터를 가져옴
+		int num =Integer.parseInt(inputData);
+		String result=((num%2)==1)? "홀수":"짝수";
+		System.out.println(result);
+		
+		Scanner sc2= new Scanner(System.in);
+		System.out.println("국어점수를입력하세요");
+		String inputDataKor=sc2.nextLine();
+		System.out.println("수학점수를입력하세요");
+		String inputDataMat=sc2.nextLine();
+		System.out.println("영어점수를입력하세요");
+		String inputDataEng=sc2.nextLine();
+		int scoreKor =Integer.parseInt(inputDataKor);
+		int scoreMat =Integer.parseInt(inputDataMat);
+		int scoreEng =Integer.parseInt(inputDataEng);
+		String grade=(scoreKor+scoreMat+scoreEng)==200? "우수":"미달";
+		System.out.println(grade);
+		
+		
+		//콘솔창을 통해서 입력받아온 String데이터를 int로 바꾼후 해당
+		//숫자가 짝수인지 또는 홀수 인지 판단하여
+		//콘솔창에 출력하세요
+		
+		//콘솔창을 통해서 String 데이터 (숫자) 두개 입력 받는다.
+		//각각의 숫자는 num1과 num2로 구분한다.
+		//두숫자의 더하기 빼기 곱하기 나누기 한 결과를 출력하기
+		
+		// 두 숫자중 더 큰 숫자가 어떤 숫자인지 표시하기.
+		
+	}
+
+}

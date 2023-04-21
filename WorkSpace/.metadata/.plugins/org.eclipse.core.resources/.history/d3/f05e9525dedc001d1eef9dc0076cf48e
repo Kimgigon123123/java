@@ -1,0 +1,18 @@
+package practice;
+
+public class Practice09 {
+	
+
+	static int getDouble(int value) {
+		value *=2;
+		return value;
+	}
+	
+	public static void main(String[] args) {
+		getDouble(10);
+		char[] getDouble;
+		System.out.println(getDouble);
+	}
+}
+
+

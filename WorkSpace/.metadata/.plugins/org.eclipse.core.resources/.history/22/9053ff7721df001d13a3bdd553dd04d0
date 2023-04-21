@@ -1,0 +1,8 @@
+package Practice2;
+
+public class PracticeMain {
+	public static void main(String[] args) {
+		practiceDTO[]=new practiceDTO[3];
+		
+	}
+}

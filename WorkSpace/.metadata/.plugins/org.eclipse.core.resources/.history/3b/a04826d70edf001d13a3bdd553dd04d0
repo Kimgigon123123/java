@@ -1,0 +1,11 @@
+package practice;
+
+public class Practice06_Main {
+	public static void main(String[] args) {
+		int[] arr= new arr[];
+		System.out.println(arr[0]);
+		arr[3]=4;
+		System.out.println(arr[3]);
+		
+	}
+}

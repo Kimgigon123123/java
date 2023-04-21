@@ -1,0 +1,17 @@
+package pack01_if;
+
+public class Ex02_ifElse {
+	public static void main(String[] args) {
+		//if문:단순if(조건식을 주고 해당하는 조건식이 true인 경우의 블럭킹(지역{})을 만들어서 코드실행)
+		
+		//if-else문: 단순 if문은 조건식이 true일때만 실행이되는 번거러움이 있음.
+		//if의 조건식이 true가 아닌 false라면 else라는 키워드를 if문 뒤에 붙여서 false실행부를 만드는것.
+		int score = 85;
+		if(score%2==0) {
+			System.out.println("짝수");
+		}else {
+			System.out.println("홀수");
+		}
+		
+	}//main
+}//class

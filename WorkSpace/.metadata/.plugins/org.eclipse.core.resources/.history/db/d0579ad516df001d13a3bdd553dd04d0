@@ -1,0 +1,10 @@
+package pack07_oop3;
+
+public class ProductDAO {
+	void display(ProductDTO aa) {
+		System.out.println(aa.getNum());
+		System.out.println(aa.getName());
+		System.out.println(aa.getPrice());
+		System.out.println(aa.getCnt());
+	}
+}

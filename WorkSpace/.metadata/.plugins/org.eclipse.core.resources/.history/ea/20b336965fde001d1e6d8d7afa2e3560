@@ -1,0 +1,8 @@
+package pack04_oop2;
+
+public class StudentDAO {
+	void display(Student st1) {
+		System.out.println(st1.sum+st1.avg);
+	}
+
+}

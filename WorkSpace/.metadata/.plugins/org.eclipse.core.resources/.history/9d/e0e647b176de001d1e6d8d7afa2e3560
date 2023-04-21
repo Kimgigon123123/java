@@ -1,0 +1,13 @@
+package project1;
+
+
+public class JapanDAO {
+	void buy(JapanDTO dto){
+		dto.count=-
+		System.out.println(dto.name);
+		System.out.println(dto.count);
+		
+		
+	}
+
+}

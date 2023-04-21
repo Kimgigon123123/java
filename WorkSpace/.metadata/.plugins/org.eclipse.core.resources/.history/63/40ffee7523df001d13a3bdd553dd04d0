@@ -1,0 +1,19 @@
+package practice;
+
+public class scoreMain {
+	public static void main(String[] args) {
+	
+	scoreDAO dao=new scoreDAO();
+	
+	scoreDTO[] class1=new scoreDTO[3];
+	scoArr[0]=new scoreDTO("김씨", 1, 50);
+	scoArr[1]=new scoreDTO("박씨", 2, 70);
+	scoArr[2]=new scoreDTO("이씨", 3, 100);
+	
+	System.out.println(class1[0].name);
+	
+	dao.display(class1);
+
+	
+}
+}

@@ -1,0 +1,19 @@
+package project1;
+
+import java.util.Scanner;
+
+public class Japan {
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("돈을 넣어주세요");
+	int money=Integer.parseInt(sc.nextLine());
+	Cola showCola=new Cola();
+	Saida showSaida=new Saida();
+	Fanta showFanta=new Fanta();
+	System.out.println("음료를 선택하세요");
+	System.out.println("1.콜라 2.사이다 3.환타");
+	sc.nextLine();
+	
+	
+}
+}

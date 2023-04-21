@@ -1,0 +1,16 @@
+package pack03_oop;
+
+public class ProductDAO {
+	//기능만있음.
+	//필요에따라서는 필드에 변수(DAO에 필요한것) 만들기도함
+	
+	
+	//display메소드를 이용해서 dto의 정보가 출력되게 해보기
+	void display(ProductDTO dto) {
+		System.out.println(dto.num);
+		System.out.println(dto.name);
+	}
+	
+	
+	}
+}

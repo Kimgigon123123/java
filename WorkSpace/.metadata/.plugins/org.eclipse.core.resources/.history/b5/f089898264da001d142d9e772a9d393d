@@ -1,0 +1,12 @@
+package pack02_field;
+
+public class Ex01_CarMain {//Main 붙었기 때문에 main메소드 만들기.
+	public static void main(String[] args) {
+		//Ex01_Car라는 클래스를 변수처럼 만들어보기. (사용가능하게)
+		Ex01_Car es1=new Ex01_Car;
+		
+		
+		//내부에 있는 내용을 출력해보기
+	}
+
+}

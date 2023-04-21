@@ -1,0 +1,10 @@
+package project1;
+
+import practice.PracticeDTO;
+
+public class JapanDAO {
+	void buy(JapanDTO dto){
+		dto.count--;
+	}
+
+}

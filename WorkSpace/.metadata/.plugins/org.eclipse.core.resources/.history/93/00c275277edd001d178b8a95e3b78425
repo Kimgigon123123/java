@@ -1,0 +1,14 @@
+package practice;
+
+public class Practice14 {
+	String name="더하기 해주는 로봇";
+	String price ="1000원";
+	void start(int x, int b) {
+		System.out.println(x+b);
+	}
+	public static void main(String[] args) {
+		Practice14 ec= new Practice14();
+		ec.start(30,50);
+		ec.name;
+	}
+}

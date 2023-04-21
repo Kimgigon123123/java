@@ -1,0 +1,10 @@
+package pack07_oop3;
+
+public class ProductDAO {
+	void display(ProductDTO aa) {
+		System.out.println("번호: "+aa.getNum());
+		System.out.println("이름: "+aa.getName());
+		System.out.println("가격: "+aa.getPrice()+"원");
+		System.out.println("재고: "+aa.getCnt()+"개 남음");
+	}
+}

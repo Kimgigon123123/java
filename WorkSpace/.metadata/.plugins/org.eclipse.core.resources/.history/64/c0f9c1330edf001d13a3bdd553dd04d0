@@ -1,0 +1,13 @@
+package practice;
+
+public class PracticeDTO {
+	String name;
+	int score1;
+	int score2;
+	int sum=score1+score2;
+	
+	
+
+	}
+
+

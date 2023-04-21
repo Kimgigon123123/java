@@ -1,0 +1,26 @@
+package practice;
+
+public class practice02 {
+	String name;
+	String price;
+	String taste;
+	
+	
+	
+	public practice02(String name, String price, String taste) {
+		super();
+		this.name = name;
+		this.price = price;
+		this.taste = taste;
+	}
+
+
+
+	public static void main(String[] args) {
+		practice02 aa = new practice02("짜장면","5000원","맛있다");
+		System.out.println(aa.name);
+		System.out.println(aa.price);
+		System.out.println(aa.taste);
+		
+	}
+}

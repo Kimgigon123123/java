@@ -1,0 +1,14 @@
+package pack01_base;
+
+public class Ex06_MethodMain {
+	public static void main(String[] args) {
+		Ex06_Method em= new Ex06_Method();
+		em.method1(); //void
+		em.method2("입니다"); //void
+		em.isMethod3(); //boolean
+		em.isMethod4(10); //boolean
+		
+		System.out.println(em.method1());
+	}
+
+}

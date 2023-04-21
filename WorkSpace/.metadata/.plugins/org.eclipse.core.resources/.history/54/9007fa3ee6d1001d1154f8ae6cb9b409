@@ -1,0 +1,12 @@
+
+public class Ex03_Bool {public static void main(String[] args) {
+	// true 와 false만 저장가능한 변수타입은?
+	boolean boolT=true;
+	boolean boolF=false;
+	
+	System.out.println(boolT);
+	System.out.println(boolF);
+	
+}
+
+}

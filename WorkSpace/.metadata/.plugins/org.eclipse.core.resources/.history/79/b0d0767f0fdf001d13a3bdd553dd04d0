@@ -1,0 +1,10 @@
+package practice;
+
+public class Practice06_Main {
+	public static void main(String[] args) {
+		String[]drinkArr= {"콜라","사이다","환타"};
+		String[]drinkArr2 = new String[drinkArr.length];
+		System.out.println(drinkArr2[0]);
+		
+	}
+}

@@ -1,0 +1,33 @@
+
+public class Text06 {public static void main(String[] args) {
+	//test06 클래스를 하나만들고 int형 변수를 나열하여 5개 선언하고 
+		//값을 각각의 과목 점수를 저장하기 위한 용도이다.(이름을 뭘로 할까?)
+		//국어,수학,영어,과학,체육
+		
+		
+	 int kor,math,eng,sci,phy;
+	 kor=10;
+	 math=20;
+	 eng=30;
+	 sci=40;
+	 phy=50;
+	 System.out.println(kor);
+	 
+	 //형변환(Casting) : 서로 다른 타입의 변수를 변환시켜 사용함
+	 // ex) int <-> double , String <-> int
+	 // int < double
+	 int iValue=10;
+	 double dValue=iValue+0.5; // 아무것도 한것 없음 ==> 자동 형변환
+	 System.out.println("iValue 값 : "+iValue);
+	 System.out.println("dValue 값 : "+dValue);
+	 iValue=dValue;
+	 int dValue=dValue(int)
+	 
+	 
+	 
+	 
+		
+		
+}
+
+}

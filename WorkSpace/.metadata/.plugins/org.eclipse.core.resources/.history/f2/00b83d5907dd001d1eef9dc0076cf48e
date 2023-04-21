@@ -1,0 +1,12 @@
+package practice;
+
+public class Practice13 {
+	public static void numbering(int num) {
+		System.out.println(num);
+
+	}
+	public static void main(String[] args) {
+		numbering(15);
+	}
+}
+

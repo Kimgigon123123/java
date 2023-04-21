@@ -1,0 +1,14 @@
+
+public class Test01 {public static void main(String[] args) {
+	int iNum;
+	iNum= 100;
+	System.out.println(iNum);
+	double dNum1=3.14;
+	
+	String str = "¹®ÀÚ¿­";
+	String numStr = "123";
+	int numInt = Integer.parseInt(numStr);
+	System.out.println(numInt);
+}
+
+}

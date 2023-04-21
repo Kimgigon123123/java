@@ -1,0 +1,9 @@
+package practice;
+
+public class practice05 {
+	
+	int sum1(int[]arr) {
+		return 
+	}
+
+}

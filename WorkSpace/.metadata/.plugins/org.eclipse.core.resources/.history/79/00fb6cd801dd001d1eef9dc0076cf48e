@@ -1,0 +1,15 @@
+package practice;
+
+public class Practice11 {
+	//from~to까지의 누적합을 구하여라
+	int sum=0;
+	int aa(int from, int to) {
+		for(int i=from;i<to;i++) {
+			return sum=sum+1;
+		}
+	}
+	public static void main(String[] args) {
+		Practice11 es= new Practice11();
+		System.out.println(es.aa(3, 5));
+	}
+}

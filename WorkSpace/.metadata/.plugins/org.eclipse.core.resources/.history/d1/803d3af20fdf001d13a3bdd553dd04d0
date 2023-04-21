@@ -1,0 +1,15 @@
+package practice;
+
+public class Practice06_Main {
+	public static void main(String[] args) {
+		String[]drinkArr= {"콜라","사이다","환타"};
+		String[]drinkArr2 = new String[drinkArr.length];
+		for(int i=0;i<drinkArr.length;i++) {
+			System.out.println(drinkArr[i]);
+		}
+		
+		drinkArr.length=+1;
+		
+		
+	}
+}

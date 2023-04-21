@@ -1,0 +1,18 @@
+package pack04_oop2;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		Student st1= new Student(1,"김",40,40,10);
+//		st1.num=1;
+//		st1.name="김씨";
+//		st1.korSco=50;
+//		st1.matSco=100;
+//		st1.engSco=60;
+//		st1.sum=st1.korSco+st1.matSco+st1.engSco;
+//		st1.avg=(double)st1.sum/3;
+		System.out.println(st1.num+st1.name+st1.sum+st1.avg);
+		
+
+		
+	}
+}

@@ -1,0 +1,14 @@
+package Practice2;
+
+public class practiceDTO {
+	String name; // 이름
+	int num; //번호
+	int score; // 점수
+	
+	public practiceDTO(String name, int num, int score) {
+		super();
+		this.name = name;
+		this.num = num;
+		this.score = score;
+	}
+}

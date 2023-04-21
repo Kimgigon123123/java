@@ -1,0 +1,12 @@
+package practice;
+
+public class PracticeDAO {
+	private void display(PracticeDTO dto) {
+
+		System.out.println("합계는 "+dto.sum);
+
+	}
+	
+	
+
+}

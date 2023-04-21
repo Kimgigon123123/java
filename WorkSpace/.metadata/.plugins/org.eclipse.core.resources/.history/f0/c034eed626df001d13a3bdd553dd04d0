@@ -1,0 +1,12 @@
+package project1;
+
+public class Saida {
+	void showSaida() {
+		String name="사이다";
+		int price=1000;
+		int count=5;
+		System.out.println("이름: "+name);
+		System.out.println("가격: "+price);
+		System.out.println("수량: "+count);
+	}
+}
