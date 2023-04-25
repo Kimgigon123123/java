@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="selectdrink("/>
 		<list key="findhistory">
+			<item value="package project1;"/>
+			<item value="selectdrink("/>
+			<item value="selectdrink"/>
 			<item value="nextLine"/>
 			<item value="nextLine("/>
 			<item value="&#x09;&#x09;try {"/>
