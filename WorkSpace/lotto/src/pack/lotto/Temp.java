@@ -15,7 +15,7 @@ public class Temp {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("로또를 시작합니다");
-		System.out.println("6개의 숫자를 모두 맞히면 1000억!");
+		System.out.println("6개의 숫자를 모두 맞히면 1조원!!");
 		sc.nextLine();
 		
 		
@@ -221,6 +221,25 @@ public class Temp {
 			count+=1;
 		}
 		System.out.println("맞힌 갯수 : "+count+"개");
+		
+		
+			double money=Math.pow(100, count);
+		
+		if(count>=1) {
+			System.out.println(money+"원 당첨!!");
+		}
+		else if(count==0) {
+			System.out.println("0원 당첨!!");
+		}
+		
+		
+//		System.out.println("0개: 0원");
+//		System.out.println("1개: 100원");
+//		System.out.println("2개: 만원");
+//		System.out.println("3개: 백만원");
+//		System.out.println("4개: 1억원");
+//		System.out.println("5개: 100억원");
+//		System.out.println("6개: 1조");
 			
 		}
 }
