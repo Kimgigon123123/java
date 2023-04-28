@@ -7,6 +7,7 @@ public class Ex03_CarMain {
 		System.out.println(myCar.company);
 		System.out.println(myCar.model);
 		System.out.println(myCar.color);
+		myCar.maxSpeed=100;
 		System.out.println(myCar.maxSpeed);
 		System.out.println(myCar.speed);
 	}

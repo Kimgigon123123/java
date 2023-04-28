@@ -10,7 +10,8 @@ public class Ex01_Cons {//Ex01_Cons();
 	//public, private, protected, default 의 접근 제한자.(추후 배움 무시) = > public
 	// 접근 제한자 메소드의 타입 이름(){}
 	
-	public Ex01_Cons() {
+	public Ex01_Cons(int a) {
 		System.out.println("여기가 실행됩니까?");
+		System.out.println(a);
 	}
 }

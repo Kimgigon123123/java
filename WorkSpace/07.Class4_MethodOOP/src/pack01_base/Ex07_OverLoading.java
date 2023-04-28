@@ -18,5 +18,7 @@ public class Ex07_OverLoading {
 		//대표적으로 메소드 오버로딩이 되어있는 것은 println임
 		//어떤 타입을 넣어도 일단 출력이 되게끔 만들어뒀음
 		eo.method("안녕",10);
+		eo.method();
+		eo.method(123);
 	}
 }

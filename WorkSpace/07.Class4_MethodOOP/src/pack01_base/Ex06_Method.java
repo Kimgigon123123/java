@@ -43,8 +43,8 @@ public class Ex06_Method {
 		return dResult;
 	}
 	
-	int[] iMethod() {
-		int[] iResult= new int[3];
+	String[] iMethod() {
+		String[] iResult= new String[3];
 		return iResult;
 	}
 	

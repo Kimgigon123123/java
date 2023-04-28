@@ -13,6 +13,7 @@ public class Ex02_field {
 	char chaField;
 	boolean boolField;
 	
+	
 	Scanner sc;
 	Random random;
 	int[] arr;

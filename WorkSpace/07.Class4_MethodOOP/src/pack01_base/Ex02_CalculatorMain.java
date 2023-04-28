@@ -10,6 +10,7 @@ public class Ex02_CalculatorMain {
 		System.out.println(result);
 		System.out.println(1+ec.test());
 		result = ec.plus(5, 10);
+		System.out.println(result);
 		// String inputData = sc.nextLine();//<= nextLine()== String을 return하는 메소드
 		System.out.println(ec.plus3(1, 2 , 3));
 		System.out.println(ec.plus3(1, 2 , 3 )/3);
