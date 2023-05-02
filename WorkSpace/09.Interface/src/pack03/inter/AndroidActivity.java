@@ -8,6 +8,8 @@ public class AndroidActivity {
 		
 		//익명의 메소드
 		AndroidOnclick ao = new AndroidOnclick() {
+		
+		
 			
 			@Override
 			public void onClick() {

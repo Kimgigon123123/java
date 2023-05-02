@@ -24,7 +24,7 @@ public class Practice01 {
 				System.out.print("["+arr[i]+"]");
 			}
 			
-			int random = new Random().nextInt(dif);
+			int random = new PracticeRandom().nextInt(dif);
 			while(true) {
 				System.out.println();
 				System.out.println("숫자를 맞춰주세요");

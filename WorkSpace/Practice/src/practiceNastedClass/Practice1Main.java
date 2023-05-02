@@ -19,14 +19,7 @@ public class Practice1Main {
 		AA.BB.CC.DD dd = cc.new DD();
 		System.out.println(dd.a);
 		
-//		AA aa = new AA();
-//		AAB aab = new AAB();
-//		aab.methodAAB();
-//		BB bb = aa.new BB();
-//		bb.methodAAB();
-//		CC cc = bb.new CC();
-//		cc.methodAAB();
-//		DD dd = cc.new DD();
+
 	}
 	
 }

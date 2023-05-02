@@ -19,6 +19,6 @@ public class Ex07_OverLoading {
 		//어떤 타입을 넣어도 일단 출력이 되게끔 만들어뒀음
 		eo.method("안녕",10);
 		eo.method();
-		eo.method(123);
+		eo.method(123                                                       );
 	}
 }
