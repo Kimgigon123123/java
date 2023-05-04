@@ -10,8 +10,9 @@ public class Ex01_Student {
 	public static void main(String[] args) {
 		//System.out.println(이름); static?
 		String str="";
+		
 	}
-	public void study() {
+	void study() {
 		System.out.println(이름+"공부를 합니다");
 	}
 }
