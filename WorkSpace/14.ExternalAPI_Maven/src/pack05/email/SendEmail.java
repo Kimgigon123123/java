@@ -113,7 +113,7 @@ public class SendEmail {
 		mail.setCharset("utf-8");//한글깨짐방지
 		mail.setDebug(true);//오류를 찾아서 개발을 하고 있는 과정인지.
 		
-		mail.setAuthentication("kgg990321", "Kjh6877h!!");
+		mail.setAuthentication("kgg990321", "비밀번호");
 		mail.setSSLOnConnect(true);
 		//============= 고정 어떤메일을 쓰든 smtp서버와 smtp서버를 이용할수있는 고객인증
 		

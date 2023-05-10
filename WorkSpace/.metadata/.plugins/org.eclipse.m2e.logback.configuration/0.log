@@ -1234,3 +1234,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact classworlds:c
 2023-05-10 12:50:12,500 [Worker-116: Launching SendEmail] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
 2023-05-10 12:50:12,501 [Worker-116: Launching SendEmail] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-10 12:50:12,501 [Worker-116: Launching SendEmail] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-10 14:01:11,972 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:01:11,972 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-10 14:01:11,973 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:01:11,973 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
