@@ -1238,3 +1238,88 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact classworlds:c
 2023-05-10 14:01:11,972 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
 2023-05-10 14:01:11,973 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-10 14:01:11,973 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:21:47,819 [Worker-29: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-05-11 10:22:26,861 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 14.ExternalAPI_Maven:14.ExternalAPI_Maven:0.0.1-SNAPSHOT @ D:\study-java\WorkSpace\14.ExternalAPI_Maven\pom.xml.
+2023-05-11 10:22:27,929 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:22:27,929 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:22:27,931 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:22:27,931 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:22:29,314 [Worker-27: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1-sources.jar
+2023-05-11 10:22:29,340 [Worker-27: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1-sources.jar
+2023-05-11 10:22:29,687 [Worker-27: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jsoup:jsoup:1.13.1
+2023-05-11 10:22:30,241 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:22:30,242 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:22:30,244 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:22:30,244 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:23:31,743 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:23:31,744 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:23:31,745 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:23:31,746 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:23:42,464 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:23:42,465 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:23:42,466 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:23:42,466 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:32:55,886 [Worker-27: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:32:55,887 [Worker-27: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:32:55,889 [Worker-27: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:32:55,890 [Worker-27: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:33:31,597 [Worker-27: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:33:31,597 [Worker-27: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:33:31,599 [Worker-27: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:33:31,600 [Worker-27: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:33:52,292 [Worker-29: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:33:52,292 [Worker-29: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:33:52,293 [Worker-29: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:33:52,294 [Worker-29: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:39:55,915 [Worker-31: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:39:55,916 [Worker-31: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:39:55,918 [Worker-31: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:39:55,918 [Worker-31: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:42:45,998 [Worker-34: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:42:45,999 [Worker-34: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:42:46,001 [Worker-34: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:42:46,001 [Worker-34: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:45:23,756 [Worker-38: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:45:23,757 [Worker-38: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:45:23,757 [Worker-38: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:45:23,758 [Worker-38: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:45:37,849 [Worker-33: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:45:37,850 [Worker-33: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:45:37,850 [Worker-33: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:45:37,850 [Worker-33: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:48:38,195 [Worker-29: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:48:38,196 [Worker-29: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:48:38,197 [Worker-29: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:48:38,197 [Worker-29: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:52:13,100 [Worker-40: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:52:13,100 [Worker-40: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:52:13,101 [Worker-40: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:52:13,102 [Worker-40: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 10:52:20,086 [Worker-39: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:52:20,086 [Worker-39: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 10:52:20,087 [Worker-39: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 10:52:20,088 [Worker-39: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 11:03:03,533 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:03:03,534 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 11:03:03,535 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:03:03,535 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 11:10:48,493 [Worker-45: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:10:48,494 [Worker-45: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 11:10:48,494 [Worker-45: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:10:48,494 [Worker-45: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 11:12:36,798 [Worker-45: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:12:36,799 [Worker-45: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 11:12:36,800 [Worker-45: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:12:36,800 [Worker-45: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 11:13:04,764 [Worker-45: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:13:04,765 [Worker-45: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 11:13:04,765 [Worker-45: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:13:04,765 [Worker-45: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 11:13:23,540 [Worker-44: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:13:23,541 [Worker-44: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 11:13:23,541 [Worker-44: Launching JsoupAPI2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 11:13:23,542 [Worker-44: Launching JsoupAPI2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
+2023-05-11 12:45:34,513 [Worker-64: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 12:45:34,517 [Worker-64: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\main\resources
+2023-05-11 12:45:34,518 [Worker-64: Launching JsoupAPI] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-11 12:45:34,519 [Worker-64: Launching JsoupAPI] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\study-java\WorkSpace\14.ExternalAPI_Maven\src\test\resources
