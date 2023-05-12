@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.Reader"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="java.io.Writer"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="pack.Test05MemberServiceExample"/>
     <fullyQualifiedTypeName name="pack.Test05Kgg"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
@@ -49,7 +44,6 @@
     <fullyQualifiedTypeName name="com.google.inject.spi.Message"/>
     <fullyQualifiedTypeName name="net.nurigo.java_sdk.api.Message"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
     <fullyQualifiedTypeName name="org.apache.commons.mail.SimpleEmail"/>
     <fullyQualifiedTypeName name="pack05.email.SendEmail"/>
     <fullyQualifiedTypeName name="javax.mail.Multipart"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.apache.commons.mail.HtmlEmail"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="pack06.go.data.JsoupAPI"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+    <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 </qualifiedTypeNameHistroy>
